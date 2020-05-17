@@ -4,6 +4,11 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
 
+//to submit the form
+function myFunction() {
+    document.getElementById("form").submit();
+}
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 

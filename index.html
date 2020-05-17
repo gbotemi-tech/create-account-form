@@ -5,44 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/6629e20d42.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
-    <title>Client-Side Form</title>
+    <title>Document</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>Create Account</h1>
         </div>
-        <form class="form" id="form">
+        <form action="https://formspree.io/aabiodunawoyemi@gmail.com" class="form" id="form" method="POST" >
             <div class="form-control">
                 <label>Username</label>
-                <input type="text" id="username" placeholder="Abiodun">
+                <input type="text" name="form" id="username" placeholder="Abiodun" >
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label>Email</label>
-                <input type="email" id="email" placeholder="you@gmail.com">
+                <input type="email" name="form" id="email" placeholder="you@example.com" >
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label>Password</label>
-                <input type="password" id="password" placeholder="Password">
+                <input type="password" name="form" id="password" placeholder="Password" >
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label>Confirm Password</label>
-                <input type="password" id="password2" placeholder="Password2">
+                <input type="password" name="form" id="password2" placeholder="Confirm Password" >
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
-            <button>Submit</button>
+            <button onclick="myFunction()">Submit</button>
         </form>
     </div>
 
