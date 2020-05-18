@@ -4,9 +4,9 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
 
-//to submit the form
 function myFunction() {
     document.getElementById("form").submit();
+    alert("Successful");
 }
 
 form.addEventListener("submit", (e) => {
@@ -50,14 +50,10 @@ function checkInputs(){
     }
 }
 
-function setErrorFor(input, message) {
+function setErrorFor(input) {
     const formControl = input.parentElement;
-    const small = formControl.querySelector("small");
-
-    small.innerText = message;
-
+    
     formControl.className = "form-control error";
-
 }
 
 function setSuccessFor(input) {

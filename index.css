@@ -90,19 +90,6 @@ body {
     color: #fa3529;
 }
 
-.form-control small {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    font-size: 15px;
-    visibility: hidden;
-}
-
-.form-control.error small {
-    visibility: visible;
-    color: #fa3529;
-}
-
 button {
     background: #8919af;
     color: #fff;
