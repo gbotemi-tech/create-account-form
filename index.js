@@ -4,10 +4,6 @@ const email = document.getElementById("email");
 const password = document.getElementById("password");
 const password2 = document.getElementById("password2");
 
-function myFunction() {
-    document.getElementById("form").submit();
-    alert("Successful");
-}
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -48,6 +44,10 @@ function checkInputs(){
     } else {
         setSuccessFor(password2);
     }
+
+    document.getElementById("submit").onclick;
+    alert("Successful");
+    
 }
 
 function setErrorFor(input) {
