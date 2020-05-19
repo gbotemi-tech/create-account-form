@@ -72,23 +72,6 @@ body {
     border-color: #fa3529;
 }
 
-.form-control i {
-    position: absolute;
-    top: 40px;
-    right: 5px;
-    visibility: hidden;
-    font-size: 20px;
-}
-
-.form-control.success i.fa-check-circle {
-    visibility: visible;
-    color: #09832f;
-}
-
-.form-control.error i.fa-exclamation-circle {
-    visibility: visible;
-    color: #fa3529;
-}
 
 button {
     background: #8919af;
